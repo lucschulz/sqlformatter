@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="stylesheet.css">
+        <script src="functions.js"></script>
+        <title>SQL Formatter</title>
+    </head>
+<body>
+
+<h2>SQL Formatter</h2>
+
+<div id="mainBlock">
+    <table>
+        <tr>
+            <th>
+                SQL Values
+            </th>
+            <th>
+                Formatted SQL
+            </th>            
+        </tr>
+        <tr>
+            <td>
+                <textarea id="sqlValues" rows="30" cols="35">
+S302227539
+S302227529
+V319104099
+V319139509
+V319139505
+V319131091
+V319187523
+V319252625
+V319250101
+V319242821
+V319242813
+V319227697
+V319225431
+
+</textarea>
+                <br><br>
+            </td>
+            <td>
+                <textarea id="formattedSql" rows="30" cols="35">Formatted SQL here.</textarea>
+                <br><br>
+            </td>
+        </tr>
+        <tr>
+            <td>                
+                <input type="submit" value="Submit" onclick="arrayToSqlStatement()">
+            </td>
+        </tr>
+    </table>
+
+</div>
+
+</body>
+</html>
