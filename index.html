@@ -1,27 +1,27 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <link rel="stylesheet" type="text/css" href="stylesheet.css">
-        <script src="functions.js"></script>
-        <title>SQL Formatter</title>
-    </head>
+
+<head>
+    <link rel="stylesheet" type="text/css" href="stylesheet.css">
+    <script src="functions.js"></script>
+    <title>SQL Formatter</title>
+</head>
+
 <body>
-
-<h2>SQL Formatter</h2>
-
-<div id="mainBlock">
-    <table>
-        <tr>
-            <th>
-                SQL Values
-            </th>
-            <th>
-                Formatted SQL
-            </th>            
-        </tr>
-        <tr>
-            <td>
-                <textarea id="sqlValues" rows="30" cols="35">
+    <h2>SQL Formatter</h2>
+    <div id="mainBlock">
+        <table>
+            <tr>
+                <th>
+                    SQL Values
+                </th>
+                <th>
+                    Formatted SQL
+                </th>
+            </tr>
+            <tr>
+                <td>
+                    <textarea id="sqlValues" rows="30" cols="35">
 7539
 7529
 4099
@@ -36,21 +36,20 @@
 5431
 
 </textarea>
-                <br><br>
-            </td>
-            <td>
-                <textarea id="formattedSql" rows="30" cols="35">Formatted SQL here.</textarea>
-                <br><br>
-            </td>
-        </tr>
-        <tr>
-            <td>                
-                <input type="submit" value="Submit" onclick="arrayToSqlStatement()">
-            </td>
-        </tr>
-    </table>
-
-</div>
-
+                    <br><br>
+                </td>
+                <td>
+                    <textarea id="formattedSql" rows="30" cols="35">Formatted SQL here.</textarea>
+                    <br><br>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="submit" value="Submit" onclick="arrayToSqlStatement()">
+                </td>
+            </tr>
+        </table>
+    </div>
 </body>
+
 </html>
